@@ -263,8 +263,7 @@
 
   @media(min-width:768px) {
     .custom-navbar {
-      border-bottom: 0;
-      background: 0 0; 
+      max-width: auto; 
     }
 
     .custom-navbar.top-nav-collapse {
