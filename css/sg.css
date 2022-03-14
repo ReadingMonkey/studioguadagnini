@@ -288,6 +288,33 @@
     }
   }
 
+@media(min-width:320px) {
+    .custom-navbar {
+      max-width: auto; 
+    }
+
+    .custom-navbar.top-nav-collapse {
+      background: #ffffff;
+      -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+
+    .top-nav-collapse .navbar-brand {
+      color: #8B008B;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    .top-nav-collapse .nav li a {
+        color: #8B008B;
+    }
+
+    .top-nav-collapse .nav .section-btn a {
+      color: #ffffff;
+    }
+  }
 
 
   /*---------------------------------------
