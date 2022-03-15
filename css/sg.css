@@ -276,7 +276,7 @@
 
     .top-nav-collapse .navbar-brand {
       color: #8B008B;
-      font-size: 10px;
+      font-size: 30px;
     }
 
     .top-nav-collapse .nav li a {
@@ -303,8 +303,9 @@
 
     .top-nav-collapse .navbar-brand {
       color: #8B008B;
-      font-size: 10px;
-      align: center;
+      font-size: 30px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .top-nav-collapse .nav li a {
