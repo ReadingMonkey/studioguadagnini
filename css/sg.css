@@ -141,7 +141,7 @@
     .section-btn:hover,
     .section-btn:focus {
         background: #202020;
-        color: #8B008B;
+        color: transparent;
     }
 
 
