@@ -731,7 +731,7 @@
     }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 420px) {
 
     #home {
         background-size: cover;
