@@ -1,5 +1,4 @@
- 
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400');
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400');
 
   body {
     font-family: 'Open Sans', sans-serif;
@@ -56,10 +55,10 @@
     transition: 0.5s;
   }
 
-    a:hover, a:active, a:focus {
-        color: #8B008B;
-        outline: none;
-    }
+  a:hover, a:active, a:focus {
+    color: #8B008B;
+    outline: none;
+  }
 
   ::-webkit-scrollbar{
     width: 8px;
@@ -88,9 +87,9 @@
   }
 
   .overlay {
-    background: #536976;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #536976;  
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  
+    background: linear-gradient(to right, #292E49, #536976);
     opacity: 0.1;
     position: absolute;
     top: 0;
@@ -127,21 +126,21 @@
      BUTTONS               
   -----------------------------------------*/
 
-.section-btn {
-    background: #8A2BE2;
-    border: 0;
-    border-radius: 50px;
-    color: #8B008B;
-    font-size: 16px;
-    font-weight: normal;
-    padding: 12px 30px;
-    transition: 0.5s 0.2s;
+    .section-btn {
+        background: #8A2BE2;
+        border: 0;
+        border-radius: 50px;
+        color: #8B008B;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 12px 30px;
+        transition: 0.5s 0.2s;
 }
 
     .section-btn:hover,
     .section-btn:focus {
-        background: #202020;
-        color: transparent;
+        background: #8A2BE2;
+        color: #8B008B;
     }
 
 
@@ -206,15 +205,16 @@
     padding: 25px 0;
   }
 
-    .custom-navbar .navbar-brand {
-        color: #8B008B;
-        font-size: 30px;
-        font-weight: 500;
-        letter-spacing: -1px;
-        position: relative;
-        text-align: left;
-        font-family: "Brush Script MT", cursive;
-    }
+  .custom-navbar .navbar-brand {
+    color: #8B008B;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    position: center;
+    text-align: left;
+    font-family: "Brush Script MT", cursive;
+    align-items: center;
+  }
 
   .top-nav-collapse {
     background: #8B008B;
@@ -222,6 +222,8 @@
 
   .custom-navbar .navbar-nav {
     margin-left: 12%;
+    text-align: center;
+    max-width: auto;
   }
 
   .custom-navbar .nav li a {
@@ -257,31 +259,125 @@
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
-    background: #29ca8e;
+    background: #8A2BE2;
     border-color: transparent;
   }
 
-  /*---------------------------------------
-      HOME          
+  @media(min-width:768px) {
+
+    .custom-navbar {
+        max-width: auto;
+    }
+
+    .custom-navbar.top-nav-collapse {
+        background: #FFFFFF;
+        -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    }
+
+    .top-nav-collapse .navbar-brand {
+        color: #8B008B;
+        text-align: left;
+    }
+
+    .top-nav-collapse .nav li a {
+        color: #8B008B;
+    }
+
+    .top-nav-collapse .nav .section-btn a {
+        color: #F0F0F0;
+    }
+  }
+
+  @media(min-width:320px) {
+
+    .custom-navbar {
+        max-width: auto;
+    }
+
+    .navbar-header {
+        background-color: transparent;
+    }
+
+    .custom-navbar.top-nav-collapse {
+        background-color: #F0F0F0;
+        -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        padding: 1px 0;
+    }
+
+    .top-nav-collapse .navbar-brand {
+        color: #8B008B;
+        text-align: left;
+    }
+
+    .top-nav-collapse .nav li a {
+        color: #8B008B;
+    }
+
+    .top-nav-collapse .nav .section-btn a {
+        color: #FFFFFF;
+    }
+  }
+
+/*---------------------------------------
+     SOCIAL ICON              
   -----------------------------------------*/
 
-  #home {
-    background: url('../images/Logo.jpg') no-repeat center center;
-    background-size: cover;
-    vertical-align: middle;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    min-height: 100vh;
-    position: relative;
-    padding-top: 4em;
-    text-align: center;
-  }
+    .social-icon {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        color: #8B008B;
+    }
+
+    .social-icon li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .social-icon li a {
+        border-radius: 50px;
+        color: #8B008B;
+        font-size: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+        margin: 5px 5px 5px 0;
+    }
+
+    .social-icon li a:hover {
+        background: #536976;
+        color: #8B008B;
+    }
+
+    /*---------------------------------------
+      HOME          
+    -----------------------------------------*/
+
+    #home {
+        background: url('../images/Logo.jpg') no-repeat center center;
+        background-size: cover;
+        vertical-align: middle;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        min-height: 100vh;
+        position: relative;
+        padding-top: 4em;
+        text-align: center;
+    }
 
     #home h1 {
         color: #8B008B;
@@ -291,12 +387,12 @@
         font-family: "Brush Script MT", cursive;
         width: 100%;
         text-shadow: 0 0 8px white, -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    }
+        }
 
     .home-info {
         margin-top: 90%;
         margin-bottom: 10%;
-        position: sta;
+        position: static;
         vertical-align: bottom;
     }
 
@@ -309,164 +405,165 @@
         margin: 2px 0;
         text-shadow: 0 0 3px white;
     }
-  
 
-
-  /*---------------------------------------
-      FEATURE              
-  -----------------------------------------*/
-
-#feature {
-    background: #DDA0DD;
-}
-
-  #feature .nav-tabs {
-    border-bottom: 0;
-  }
-
-  #feature .nav>li>a {
-    padding: 8px 0;
-  }
-
-  #feature .nav-tabs>li>a {
-    color: black;
-    font-size: 18px;
-    border: 0;
-    border-bottom: 3px solid transparent;
-    border-radius: 0;
-    margin-right: 35px;
-  }
-
-  #feature .nav-tabs > li.active > a,
-  #feature .nav-tabs > li.active > a:focus,
-  #feature .nav-tabs > li.active > a:hover {
-    background: transparent;
-    color: #8B008B;
-    border-bottom: 3px solid #8B008B;
-  }
-
-  #feature .nav > li > a:focus,
-  #feature .nav > li > a:hover {
-    background: transparent;
-    border-bottom: 3px solid #8B008B;
-    color: #8B008B;
-  }
-
-  #feature .tab-content {
-    margin-top: 50px;
-  }
-
-  .tab-pane-item {
-    margin: 60px 0;
-  }
-
-  .tab-pane-item li {
-    font-size: 22px;
-  }
-
-  .feature-image {
-    position: absolute;
-    bottom: -27em;
-  }
-
-
-
-  /*---------------------------------------
+/*---------------------------------------
       ABOUT              
   -----------------------------------------*/
 
-  #about .col-md-4 {
-    margin: 0;
-    padding: 0;
-  }
+    #about .col-md-4 {
+        margin: 0;
+        padding: 0;
+    }
 
-  .team-thumb {
-    background: #ffffff;
-    position: relative;
-    overflow: hidden;
-  }
+    .team-thumb {
+        background: #ffffff;
+        position: relative;
+        overflow: hidden;
+    }
 
-  .team-thumb-up:after {
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: -15px;
-    right: 0;
-    left: 0;
-    content: "";
-    width: 0;
-    height: 0;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 15px solid #ffffff;
-  }
+    .team-thumb-up:after {
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: -15px;
+        right: 0;
+        left: 0;
+        content: "";
+        width: 0;
+        height: 0;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-bottom: 15px solid #ffffff;
+    }
 
-  .team-thumb-down:after {
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    bottom: -15px;
-    right: 0;
-    left: 0;
-    content: "";
-    width: 0;
-    height: 0;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-top: 15px solid #ffffff;
-  }
+    .team-thumb-down:after {
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        bottom: -15px;
+        right: 0;
+        left: 0;
+        content: "";
+        width: 0;
+        height: 0;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 15px solid #ffffff;
+    }
 
-  .team-info {
-    position: relative;
-    padding: 40px;
-  }
+    .team-info {
+        position: relative;
+        padding: 40px;
+    }
 
-  .team-info h2 {margin: 0;}
+    .team-info h2 {
+        margin: 0;
+    }
 
-  .team-info small {
-    display: block;
-    font-size: 18px;
-    margin: 5px 0 10px 0;
-  }
+    .team-info small {
+        display: block;
+        font-size: 18px;
+        margin: 5px 0 10px 0;
+    }
 
-  .team-thumb img {
-    width: 100%;
-  }
+    .team-thumb img {
+        width: 100%;
+    }
+
+    /*---------------------------------------
+      FEATURE              
+    -----------------------------------------*/
+
+    #feature {
+        background: #DDA0DD;
+    }
+
+    #feature .nav-tabs {
+        border-bottom: 0;
+    }
+
+    #feature .nav > li > a {
+        padding: 8px 0;
+    }
+
+    #feature .nav-tabs > li > a {
+        color: black;
+        font-size: 18px;
+        border: 0;
+        border-bottom: 3px solid transparent;
+        border-radius: 0;
+        margin-right: 35px;
+    }
+
+    #feature .nav-tabs > li.active > a,
+    #feature .nav-tabs > li.active > a:focus,
+    #feature .nav-tabs > li.active > a:hover {
+        background: transparent;
+        color: #8B008B;
+        border-bottom: 3px solid #8B008B;
+    }
+
+    #feature .nav > li > a:focus,
+    #feature .nav > li > a:hover {
+        background: transparent;
+        border-bottom: 3px solid #8B008B;
+        color: #8B008B;
+    }
+
+    #feature .tab-content {
+        margin-top: 50px;
+    }
+
+    .tab-pane-item {
+        margin: 60px 0;
+    }
+
+    .tab-pane-item li {
+        font-size: 22px;
+    }
+
+    .feature-image {
+        position: absolute;
+        bottom: -27em;
+    }
+
+    
 
 
-  /*---------------------------------------
+    /*---------------------------------------
       PRICING             
-  -----------------------------------------*/
+    -----------------------------------------*/
 
-  #about .section-title,
-  #pricing .section-title {
-    text-align: center;
-    margin-bottom: 30px;
-  }
+    #about .section-title,
+    #pricing .section-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 
-  #pricing .box {
-    padding: 60px;
-  }
+    #pricing .box {
+        padding: 60px;
+    }
 
-  #pricing table {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    #pricing table {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-  #pricing td {
-    height: 40px;
-    text-align: left;
-    vertical-align: central;
-    font-size: 20px;
-  }
+    #pricing td {
+        height: 40px;
+        text-align: left;
+        vertical-align: central;
+        font-size: 20px;
+    }
 
-  /*---------------------------------------
+    /*---------------------------------------
       CONTACT             
-  -----------------------------------------*/
+    -----------------------------------------*/
 
     #contact {
         background: #DDA0DD;
+        width: 100%;
     }
 
     #service {
@@ -501,9 +598,9 @@
         text-align: center;
     }
 
-/*---------------------------------------
+    /*---------------------------------------
      FOOTER              
-  -----------------------------------------*/
+    -----------------------------------------*/
 
     footer {
         padding-bottom: 5px;
@@ -515,36 +612,274 @@
         margin-right: auto;
     }
 
-  /*---------------------------------------
-     SOCIAL ICON              
-  -----------------------------------------*/
+    /*---------------------------------------
+     RESPONSIVE STYLES              
+    -----------------------------------------*/
 
-    .social-icon {
-        position: relative;
-        padding: 0;
-        margin: 0;
-        color: #8B008B;
+    @media only screen and (max-width: 1200px) {
+
+        .custom-navbar .navbar-nav {
+            margin-left: 3em;
+        }
+
+        .home-info {
+            margin-top: 90%;
+            margin-bottom: 10%;
+        }
     }
 
-    .social-icon li {
-        display: inline-block;
-        list-style: none;
+
+    @media only screen and (max-width: 992px) {
+
+
+        .home-info {
+            margin-top: 90%;
+            margin-bottom: 10%;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .custom-navbar .navbar-nav {
+            margin-left: 0;
+        }
+
+        .custom-navbar .nav li a {
+            font-size: 14px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        #feature .nav-tabs > li > a {
+            font-size: 16px;
+            margin-right: 20px;
+        }
+
+        .feature-image {
+            bottom: -24em;
+        }
+
+        .pricing-thumb {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            padding-bottom: 40px;
+        }
     }
 
-    .social-icon li a {
-        border-radius: 50px;
-        color: #8B008B;
-        font-size: 15px;
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        text-decoration: none;
+
+@media screen and (max-width: 767px) {
+
+    #home {
+        background-size: cover;
+    }
+
+    .home-info {
+        margin-top: 90%;
+        margin-bottom: 10%;
+    }
+
+    .section-title {
+        padding-bottom: 20px;
+    }
+
+    .custom-navbar {
+        background-color: #F0F0F0;
+        padding: 0 0;
         text-align: center;
-        position: relative;
-        margin: 5px 5px 5px 0;
+        color: transparent;
     }
 
-    .social-icon li a:hover {
-        background: #536976;
-        color: #8B008B;
+    .custom-navbar .nav li a {
+        line-height: normal;
+        padding: 5px;
     }
+
+    .custom-navbar .navbar-brand,
+    .top-nav-collapse .navbar-brand {
+        color: #9400D3;
+        font-weight: normal;
+        margin-left: 1%;
+        font-size: x-large;
+    }
+
+    .custom-navbar .nav li a,
+    .top-nav-collapse .nav li a {
+        color: #656565;
+    }
+
+    .feature-image {
+        position: relative;
+        bottom: 0;
+    }
+
+    #about .col-md-4:nth-child(3n) .team-thumb {
+        display: flex;
+        -webkit-box-orient: vertical;
+        flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+    }
+
+    .team-thumb-down:after {
+        top: -15px;
+        bottom: inherit;
+        border-top: inherit;
+        border-bottom: 15px solid #ffffff;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    #home {
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        margin: 30px 0 10px;
+    }
+
+    #home h1 {
+        font-size: 45px;
+        padding-top: 3px;
+    }
+
+    #home h3 {
+        font-size: 8px;
+    }
+
+    #about h2 {
+        font-size: 25px;
+    }
+
+    .home-info {
+        max-width: 100%;
+        margin-top: 90%;
+        margin-bottom: 10%;
+    }
+
+    .section-title {
+        padding-bottom: 20px;
+    }
+
+    .custom-navbar {
+        background-color: #F0F0F0;
+        padding: 0 0;
+        text-align: center;
+        color: transparent;
+    }
+
+    .custom-navbar .nav li a {
+        line-height: normal;
+        padding: 5px;
+    }
+
+    .custom-navbar .navbar-brand,
+    .top-nav-collapse .navbar-brand {
+        color: #9400D3;
+        font-weight: normal;
+        margin-left: 1%;
+        font-size: x-large;
+    }
+
+    .custom-navbar .nav li a,
+    .top-nav-collapse .nav li a {
+        color: #656565;
+    }
+
+    .feature-image {
+        position: relative;
+        bottom: 0;
+    }
+
+    #about .col-md-4:nth-child(3n) .team-thumb {
+        display: flex;
+        -webkit-box-orient: vertical;
+        flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+    }
+
+    .team-thumb-down:after {
+        top: -15px;
+        bottom: inherit;
+        border-top: inherit;
+        border-bottom: 15px solid #ffffff;
+    }
+
+    #service {
+        max-width: auto;
+        max-height: auto;
+        -webkit-box-orient: vertical;
+        flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+    }
+
+    #contact h2 {
+        font-size: 20px;
+        margin: 20px 20px 10px;
+    }
+
+    #contact .box {
+        padding: 10px;
+    }
+
+    #feature {
+        max-width: auto;
+        padding: 0 0;
+    }
+   
+    .tab-pane-item li {
+        font-size: 15px;
+    }
+
+    #feature h3 {
+        font-size: 15px;
+        margin: 0 10px 0;
+    }
+
+    #feature .section-title {
+        padding: 0 0 5px;
+    }
+
+    #feature .nav-tabs > li > a {
+        font-size: 16px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+        
+    #pricing {
+        padding: 0 0;
+    }
+    
+    #pricing table td {
+        font-size: 15px;
+    }
+
+    #pricing .box {
+        padding: 15px;
+    }
+
+    .team-info {
+        position: relative;
+        padding: 10px;
+    }
+
+    #about .section-title {
+        max-height: 100%;
+        height: 30px;
+    }
+
+    #about h1 {
+        vertical-align: central;
+    }
+
+    #about {
+        padding: 0 0;
+    }
+}
