@@ -202,8 +202,7 @@
     font-size: 30px;
     font-weight: 500;
     letter-spacing: -1px;
-    position: center;
-    text-align: left;
+    text-align: center;
     font-family: "Brush Script MT", cursive;
     align-items: center;
   }
@@ -213,7 +212,7 @@
   }
 
   .custom-navbar .navbar-nav {
-    margin-left: 12%;
+    margin-left: 20%;
     text-align: center;
     max-width: auto;
   }
@@ -341,7 +340,7 @@
         text-decoration: none;
         text-align: center;
         position: relative;
-        margin: 5px 5px 5px 0;
+        margin: 5px 15px 5px 0;;
     }
 
     .social-icon li a:hover {
