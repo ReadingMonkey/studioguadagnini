@@ -6,6 +6,8 @@
     background: #f9f9f9;
   }
 
+
+
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
@@ -30,6 +32,8 @@
     font-weight: normal;
     line-height: 24px;
   }
+
+
 
   /*---------------------------------------
      GENERAL               
@@ -72,7 +76,7 @@
 
   section {
     position: relative;
-    padding: 100px 0;
+    padding: 50px 0;
   }
 
   #contact,
@@ -116,6 +120,8 @@
         color: #8B008B;
     }
 
+
+
   /*---------------------------------------
      BUTTONS               
   -----------------------------------------*/
@@ -129,7 +135,7 @@
         font-weight: normal;
         padding: 12px 30px;
         transition: 0.5s 0.2s;
-    }
+}
 
     .section-btn:hover,
     .section-btn:focus {
@@ -179,7 +185,7 @@
     animation: spinner .9s linear infinite;
   }
 
-  @-webkit-@keyframes spinner {
+  @keyframes spinner {
     to {transform: rotate(360deg);}
   }
 
@@ -187,11 +193,13 @@
     to {transform: rotate(360deg);}
   }
 
+
+
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
 
- .custom-navbar {
+  .custom-navbar {
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
@@ -202,7 +210,6 @@
     font-size: 30px;
     font-weight: 500;
     letter-spacing: -1px;
-    position: center;
     text-align: left;
     font-family: "Brush Script MT", cursive;
     align-items: center;
@@ -213,7 +220,7 @@
   }
 
   .custom-navbar .navbar-nav {
-    margin-left: 12%;
+    margin-left: 15%;
     text-align: center;
     max-width: auto;
   }
@@ -254,6 +261,13 @@
     background: #8A2BE2;
     border-color: transparent;
   }
+
+  .container{
+      width: 80%;
+      max-height: 80%;
+  }
+
+ 
 
   @media(min-width:768px) {
 
@@ -320,11 +334,11 @@
   -----------------------------------------*/
 
     .social-icon {
-        position: inherit;
-        padding: 0;
+        position: relative;
+        display: flex;
+        padding: 3px 0 0 0;
         margin: 0;
         color: #8B008B;
-        display: inline-block;
     }
 
     .social-icon li {
@@ -332,7 +346,7 @@
         list-style: none;
     }
 
-   .social-icon li a {
+    .social-icon li a {
         border-radius: 50px;
         color: #8B008B;
         font-size: 15px;
@@ -342,7 +356,7 @@
         text-decoration: none;
         text-align: center;
         position: relative;
-        margin: 5px 15px 5px 0;
+        margin: 5px 5px 5px 0;
     }
 
     .social-icon li a:hover {
@@ -459,8 +473,9 @@
         margin: 5px 0 10px 0;
     }
 
-    .team-thumb img {
+    .img-responsive {
         width: 100%;
+        height: auto;
     }
 
     /*---------------------------------------
@@ -516,9 +531,14 @@
     }
 
     .feature-image {
-        position: absolute;
+        position: flex;
         bottom: -27em;
     }
+
+    #feature .section-title {
+        text-align: center;
+    }
+
 
     /*---------------------------------------
       PRICING             
@@ -583,6 +603,7 @@
         text-align: center;
     }
 
+
     .center {
         text-align: center;
     }
@@ -592,7 +613,7 @@
     -----------------------------------------*/
 
     footer {
-        padding-bottom: 1px;
+        padding-bottom: 0;
         padding-top: 5px;
     }
 
@@ -618,7 +639,7 @@
     }
 
 
-    @media only screen and (max-width: 1080px) {
+    @media only screen and (max-width: 1199px) {
 
 
         .home-info {
@@ -678,6 +699,10 @@
         color: transparent;
     }
 
+    .navbar-brand {
+        padding: 15px 15px 15px 0;
+    }
+
     .custom-navbar .nav li a {
         line-height: normal;
         padding: 5px;
@@ -716,8 +741,7 @@
         border-bottom: 15px solid #ffffff;
     }
 }
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 766px) {
 
     #home {
         background-size: cover;
