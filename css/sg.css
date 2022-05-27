@@ -647,6 +647,9 @@
     @media only screen and (max-width: 1321px) {
 
 
+        .overlay {
+            max-heigth: 100%;
+     
         .home-info {
             margin-top: 90%;
             margin-bottom: 10%;
@@ -673,6 +676,7 @@
 
         .navbar-collapse {
             width: 100%;
+            display: flex;
         }
      
         #feature .nav-tabs > li > a {
