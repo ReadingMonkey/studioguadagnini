@@ -287,10 +287,12 @@
     .top-nav-collapse .navbar-brand {
         color: #8B008B;
         text-align: left;
+        width: 100%;
     }
 
     .top-nav-collapse .nav li a {
         color: #8B008B;
+        margin-left: 13%;
     }
 
     .top-nav-collapse .nav .section-btn a {
