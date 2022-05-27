@@ -213,6 +213,7 @@
     text-align: left;
     font-family: "Brush Script MT", cursive;
     align-items: center;
+    max-width: 100%;
   }
 
   .top-nav-collapse {
@@ -223,7 +224,7 @@
   .custom-navbar .navbar-nav {
     margin-left: 13%;
     text-align: center;
-    max-width: auto;
+    max-width: 100%;
   }
 
   .custom-navbar .nav li a {
@@ -630,7 +631,7 @@
      RESPONSIVE STYLES              
     -----------------------------------------*/
 
-    @media only screen and (max-width: 1300px) {
+    @media only screen and (max-width: 1321px) {
 
         .custom-navbar .navbar-nav {
             margin-left: 1em;
@@ -644,7 +645,7 @@
     }
 
 
-    @media only screen and (max-width: 1321px) {
+    @media only screen and (max-width: 1299px) {
 
 
         .overlay {
@@ -772,7 +773,7 @@
     }
 
     #home h1 {
-        font-size: 35px;
+        font-size: 37px;
         padding-top: 2px;
         width: 100%;
     }
