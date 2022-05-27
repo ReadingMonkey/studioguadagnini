@@ -357,6 +357,7 @@
         text-align: center;
         position: relative;
         margin: 5px 5px 5px 0;
+        display: inline-block;
     }
 
     .social-icon li a:hover {
