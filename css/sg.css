@@ -686,12 +686,12 @@
     }
 
     .home-info {
-        margin-top: 90%;
-        margin-bottom: 10%;
+        margin-top: 94%;
+        margin-bottom: 6%;
     }
 
     .section-title {
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
 
     .custom-navbar {
@@ -756,8 +756,8 @@
     }
 
     #home h1 {
-        font-size: 40px;
-        padding-top: 3px;
+        font-size: 35px;
+        padding-top: 2px;
         width: 100%;
     }
 
@@ -771,12 +771,12 @@
 
     .home-info {
         max-width: 100%;
-        margin-top: 90%;
-        margin-bottom: 10%;
+        margin-top: 94%;
+        margin-bottom: 6%;
     }
 
     .section-title {
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
 
     .custom-navbar {
