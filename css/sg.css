@@ -756,8 +756,9 @@
     }
 
     #home h1 {
-        font-size: 45px;
+        font-size: 40px;
         padding-top: 3px;
+        width: 100%;
     }
 
     #home h3 {
