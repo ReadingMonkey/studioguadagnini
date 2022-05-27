@@ -219,12 +219,14 @@
   .top-nav-collapse {
     background: #8B008B;
     height: 51px;
+    display: inline-block;
   }
 
   .custom-navbar .navbar-nav {
     margin-left: 13%;
     text-align: center;
     max-width: 100%;
+    display: inline-block;
   }
 
   .custom-navbar .nav li a {
@@ -339,7 +341,7 @@
 
     .social-icon {
         position: relative;
-        display: flex;
+        display: inline-block;
         padding: 3px 0 0 0;
         margin: 0;
         color: #8B008B;
