@@ -274,7 +274,7 @@
   @media(min-width:768px) {
 
     .custom-navbar {
-        max-width: auto;
+        max-width: 100%;
     }
 
     .custom-navbar.top-nav-collapse {
@@ -395,15 +395,15 @@
         color: #8B008B;
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 80px;
+        font-size: 75px;
         font-family: "Brush Script MT", cursive;
         width: 100%;
         text-shadow: 0 0 8px white, -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
         }
 
     .home-info {
-        margin-top: 90%;
-        margin-bottom: 10%;
+        margin-top: 85%;
+        margin-bottom: 15%;
         position: static;
         vertical-align: bottom;
     }
@@ -635,12 +635,11 @@
 
         .custom-navbar .navbar-nav {
             margin-left: 1em;
-            display: flex;
         }
 
         .home-info {
-            margin-top: 90%;
-            margin-bottom: 10%;
+            margin-top: 85%;
+            margin-bottom: 15%;
         }
     }
 
@@ -652,8 +651,8 @@
             max-heigth: 100%;
      
         .home-info {
-            margin-top: 90%;
-            margin-bottom: 10%;
+            margin-top: 85%;
+            margin-bottom: 15%;
         }
 
         section {
@@ -677,7 +676,6 @@
 
         .navbar-collapse {
             width: 100%;
-            display: flex;
         }
      
         #feature .nav-tabs > li > a {
