@@ -632,7 +632,7 @@
 
         .custom-navbar .navbar-nav {
             margin-left: 1em;
-            display: inline-block;
+            display: flex;
         }
 
         .home-info {
@@ -654,8 +654,6 @@
             padding: 60px 0;
         }
      
-        .social-icon {
-            display: inline-block;
 
         .custom-navbar .navbar-nav {
             margin-left: 0;
