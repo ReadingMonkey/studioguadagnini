@@ -631,7 +631,8 @@
     @media only screen and (max-width: 1200px) {
 
         .custom-navbar .navbar-nav {
-            margin-left: 3em;
+            margin-left: 1em;
+            display: inline-block;
         }
 
         .home-info {
@@ -652,6 +653,9 @@
         section {
             padding: 60px 0;
         }
+     
+        .social-icon {
+            display: inline-block;
 
         .custom-navbar .navbar-nav {
             margin-left: 0;
