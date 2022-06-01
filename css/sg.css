@@ -284,7 +284,7 @@
         -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         padding: 10px 0;
-        display: flex;
+        display: inline-block;
     }
 
     .top-nav-collapse .navbar-brand {
