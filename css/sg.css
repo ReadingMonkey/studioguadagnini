@@ -275,7 +275,7 @@
   @media(min-width:768px) {
 
     .custom-navbar {
-        max-width: 100%;
+        width: 100%;
     }
 
     .custom-navbar.top-nav-collapse {
@@ -293,7 +293,7 @@
     }
    
     .collapse .navbar-collapse {
-        display: flex;
+        display: inline-block;
 
     .top-nav-collapse .nav li a {
         color: #8B008B;
