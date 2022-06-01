@@ -284,7 +284,6 @@
         -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         padding: 10px 0;
-        display: inline-block;
     }
 
     .top-nav-collapse .navbar-brand {
@@ -292,6 +291,9 @@
         text-align: left;
         width: 100%;
     }
+   
+    .collapse .navbar-collapse {
+        display: flex;
 
     .top-nav-collapse .nav li a {
         color: #8B008B;
