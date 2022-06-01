@@ -218,7 +218,7 @@
   .top-nav-collapse {
     background: #8B008B;
     height: 51px;
-    display: inline-block;
+    display: flex;
   }
 
   .custom-navbar .navbar-nav {
