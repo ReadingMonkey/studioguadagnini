@@ -203,7 +203,6 @@
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
-    position: relative;
   }
 
 
@@ -220,7 +219,6 @@
   .top-nav-collapse {
     background: #8B008B;
     height: 51px;
-    position: relative;
   }
 
   .custom-navbar .navbar-nav {
@@ -235,7 +233,6 @@
     color: #8B008B;
     padding-right: 22px;
     padding-left: 22px;
-    position: fixed;
   }
 
   .custom-navbar .nav li a:hover {
