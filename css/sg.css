@@ -232,6 +232,7 @@
     color: #8B008B;
     padding-right: 22px;
     padding-left: 22px;
+    position: static;
   }
 
   .custom-navbar .nav li a:hover {
@@ -274,6 +275,7 @@
 
     .custom-navbar {
         width: 100%;
+        display: inline-block;
     }
 
     .custom-navbar.top-nav-collapse {
@@ -282,6 +284,7 @@
         -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         padding: 10px 0;
+        display: inline-block;
     }
 
     .top-nav-collapse .navbar-brand {
@@ -693,71 +696,6 @@
 
     }
 
-
-@media screen and (max-width: 767px) {
-
-    #home {
-        background-size: cover;
-    }
-
-    .home-info {
-        margin-top: 94%;
-        margin-bottom: 6%;
-    }
-
-    .section-title {
-        padding-bottom: 15px;
-    }
-
-    .custom-navbar {
-        background-color: #F0F0F0;
-        padding: 0 0;
-        text-align: center;
-        color: transparent;
-    }
-
-    .navbar-brand {
-        padding: 15px 15px 15px 0;
-    }
-
-    .custom-navbar .nav li a {
-        line-height: normal;
-        padding: 5px;
-    }
-
-    .custom-navbar .navbar-brand,
-    .top-nav-collapse .navbar-brand {
-        color: #9400D3;
-        font-weight: normal;
-        margin-left: 1%;
-        font-size: x-large;
-    }
-
-    .custom-navbar .nav li a,
-    .top-nav-collapse .nav li a {
-        color: #656565;
-    }
-
-    .feature-image {
-        position: relative;
-        bottom: 0;
-    }
-
-    #about .col-md-4:nth-child(3n) .team-thumb {
-        display: flex;
-        -webkit-box-orient: vertical;
-        flex-direction: column-reverse;
-        -webkit-flex-direction: column-reverse;
-        -ms-flex-direction: column-reverse;
-    }
-
-    .team-thumb-down:after {
-        top: -15px;
-        bottom: inherit;
-        border-top: inherit;
-        border-bottom: 15px solid #ffffff;
-    }
-}
 @media screen and (max-width: 766px) {
 
     #home {
