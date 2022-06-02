@@ -218,14 +218,12 @@
   .top-nav-collapse {
     background: #8B008B;
     height: 51px;
-    display: flex;
   }
 
   .custom-navbar .navbar-nav {
     margin-left: 13%;
     text-align: center;
     max-width: 100%;
-    display: inline-block;
   }
 
   .custom-navbar .nav li a {
