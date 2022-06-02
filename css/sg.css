@@ -203,7 +203,7 @@
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
-    position: fixed;
+    position: relative;
   }
 
 
@@ -220,7 +220,7 @@
   .top-nav-collapse {
     background: #8B008B;
     height: 51px;
-    position: fixed;
+    position: relative;
   }
 
   .custom-navbar .navbar-nav {
